@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#root > header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#root > header > hr:nth-child(2) {
+  width: 1300px;
+  height: 5px;
+  background-color: #555555;
+  margin-left: 50px;
+}
+#root > header > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+}
+
+#root > div:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 900px;
+  height: 100vh;
+  position: absolute;
+  top: 100px;
+}
+#root > div:nth-child(2) > div:nth-child(1) {
+  width: 600px;
+  height: 300px;
+  background-color: salmon;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+#root > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+  width: 200px;
+  height: 300px;
+  background-image: url("https://pbs.twimg.com/media/DzLolJ_UUAIqHfp.jpg:large");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#root > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > h1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 29px;
+  text-align: "";
+}
+#root > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 15px;
+  text-align: justify;
+}
+#root > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > p:nth-child(3) {
+  font-size: 12px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 15px;
+  text-align: justify;
+  width: 400px;
+  height: 100px;
+}
+#root > div:nth-child(2) > div:nth-child(2) {
+  width: 600px;
+  height: 300px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+#root > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) {
+  width: 200px;
+  height: 300px;
+  background-image: url("https://w.namu.la/s/534f1ba040ec406a7f5cfd88d0fb2be8ad773d4a35d44acad3f8a001344d54da402a5ec47800b9334eafe578771d03ccd78e4d7d50423f616721e81ae8b5568e5f4bc1ae4582620a49487c489175eaaa6da9201008d17cc7a5c0235841891a56");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#root > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > h1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 29px;
+  text-align: "";
+}
+#root > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 15px;
+  text-align: justify;
+}
+#root > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > p:nth-child(3) {
+  font-size: 12px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 15px;
+  text-align: justify;
+  width: 400px;
+  height: 100px;
+}
+#root > div:nth-child(2) > div:nth-child(3) {
+  width: 600px;
+  height: 300px;
+  background-color: hotpink;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+#root > div:nth-child(2) > div:nth-child(3) > div:nth-child(1) {
+  width: 200px;
+  height: 300px;
+  background-image: url("https://w.namu.la/s/534f1ba040ec406a7f5cfd88d0fb2be8ad773d4a35d44acad3f8a001344d54da402a5ec47800b9334eafe578771d03ccd78e4d7d50423f616721e81ae8b5568e5f4bc1ae4582620a49487c489175eaaa6da9201008d17cc7a5c0235841891a56");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#root > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > h1 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 29px;
+  text-align: "";
+}
+#root > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 15px;
+  text-align: justify;
+}
+#root > div:nth-child(2) > div:nth-child(3) > div:nth-child(2) > p:nth-child(3) {
+  font-size: 12px;
+  font-weight: 400;
+  color: #555555;
+  line-height: 15px;
+  text-align: justify;
+  width: 400px;
+  height: 100px;
+}
+
+#root > div:nth-child(3) {
+  width: 100px;
+  height: 800px;
+  background-color: #0039FF;
+  position: absolute;
+  top: 150px;
+  right: 500px;
+}
+
+#root > div:nth-child(4) {
+  width: 300px;
+  height: 800px;
+  background-color: lightgray;
+  position: absolute;
+  top: 150px;
+  right: 100px;
+}/*# sourceMappingURL=index.css.map */

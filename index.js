@@ -17,7 +17,7 @@ ${text.map((text) => `<li>${text}</li>`).join("")}
       </header>    
       root.innerHTML = headerTag,
       `;*/
-function elment(tagname){
+/*function elment(tagname){
 if(typeof(tagname)==="string"){
   return `<${tagname}></${tagname}>`  
 }
@@ -25,7 +25,7 @@ if(typeof(tagname)==="string"){
 root.innerHTML = `
 ${elment("header")}
 ${elment("main")}
-`;
+`;*/
 
 /*function addElement(tagname, props, parent = document.body, childrenNode = ""){
   if(typeof (props)=== "object" && typeof(tagname)=== "string"){
@@ -67,7 +67,7 @@ console.log(hrTag);
 styling.size(hrTag,"1300px","5px","#555555");*/
 
 
-header(root,"home","menu","market");
+header(root,"shop","about","contact","account","search","bag");
 
 
 
